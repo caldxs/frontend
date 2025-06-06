@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!--Define o documento-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <form>
+        <!--Entrada de dados-->
+        <label id="usuario">Login</label><br><br>
+        <input type="number" id="inId" placeholder="ID" disabled><br><br>
+        <input type="text" id="inNome" placeholder="Nome">
+         <input type = "submit" value = "Mostrar">
+    </form>
+    <script>
+        alert("JFono Beta 1.0")
+        const frm = document.querySelector("form");
+            const nome = document.getElementById("inNome");
+            console.log(`Olá ${nome} Seja bem vindo ao JFONO beta 1.0`)
+            
+            frm.addEventListener("submit",(e)=>{
+
+                console.log(nome);
+                e.preventDefault()
+
+            })
+                
+
+            
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+ul{
+    background-color: #0B1B40;
+}
+
+ul li{
+  color:#FFF;
+  text-decoration: none;
+  display: inline;
+  padding-left: 10px;  
+}
+
+ul li a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
